@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Backup_Thiago_linux\Documentos\eclipse\Seção 5\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4162628364.index
+744573105.index

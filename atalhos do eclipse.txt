@@ -1,0 +1,4 @@
+<sysout> + crtl + space = <system.out.println();>
+
+crtl + shift + f = quando selecionado todo o código, identa ou formata todo ele.
+crtl + shift + o = importa todas as bibliotecas utilizadas e deleta as não utilizadas. 
