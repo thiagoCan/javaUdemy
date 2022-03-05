@@ -1,4 +1,4 @@
-package excecao.recurso;
+package excecao.resource;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
