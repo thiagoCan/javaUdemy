@@ -3,7 +3,7 @@ package application;
 import java.util.Comparator;
 
 import entities.Product;
-
+//método um: eu tenho que instanciar no "list.sort();
 public class MyComparator implements Comparator<Product> {
 
 	@Override
