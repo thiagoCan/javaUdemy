@@ -25,9 +25,14 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
+	
+	
 	public static boolean staticProductProdicate(Product p) {
 		return p.getPrice() >= 100.00;
+	}
+	
+	public boolean nonStaticProductProdicate() {
+		return price >= 100.00;
 	}
 	
 	@Override
