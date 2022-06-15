@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Locale;
 
 import entities.Product;
-import util.ProductPredicate;
 
 public class Program {
 
@@ -20,7 +19,8 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.removeIf(new ProductPredicate());
+		//Referência para o método
+		list.removeIf(Product::staticProductProdicate);
 		
 		for (Product p : list) {
 			System.out.println(p);

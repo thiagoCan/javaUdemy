@@ -26,13 +26,14 @@ public class Product {
 		this.price = price;
 	}
 
+	public static boolean staticProductProdicate(Product p) {
+		return p.getPrice() >= 100.00;
+	}
+	
 	@Override
 	public String toString() {
-		return "name: "
-				+ getName()
-				+ "\n"
-				+ "price: "
-				+ getPrice()
-				+ "\n";
+		return getName()
+				+ ", "
+				+ getPrice();
 	}	
 }
